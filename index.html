@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      | GeoLocate</title>
+    <link type="text/css" rel="stylesheet" href="/geolocate-demo/assets/app-177e79dcaf1f9713bf9f45906787899f13712dc9a541071db2c44e5e184cf9d6.css">
+    <!--[if lt IE 9]>
+      <script src="//cdn.jsdelivr.net/g/html5shiv@3.7.3,respond@1.4.2,selectivizr@1.0.3b"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top navbar-default">
+      <div class="container">
+        <a class="navbar-brand" href="">
+          GeoLocate
+      </a>
+        <div style="padding:8px 0" class="pull-right text-right">
+          <div class="label label-primary">
+            Location: <span id="location"></span>
+          </div>
+          <br>
+          <div class="label label-warning">
+            Accuracy: <span id="accuracy"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="mapcanvas"></div>
+    <div class="navbar navbar-fixed-bottom navbar-default">
+      <div class="container">
+        <div class="row" style="padding:8px 0">
+          <div class="col-xs-6">
+            <a id="find_me" href="#" class="btn btn-primary btn-lg btn-block">Find Me</a>
+          </div>
+          <div class="col-xs-6">
+            <a id="add_marker" href="#" class="btn btn-primary btn-lg btn-block">Add Marker</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/geolocate-demo/assets/app-cceeed2d0be90f48dbcc14a1f45def795b2eb7a8e79667624ca01820f719c6d2.js"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?callback=mapInit&amp;key=AIzaSyArSkU4sNEmieoR-5rkOnszFSxw8VhLmv0"></script>
+  </body>
+</html>
