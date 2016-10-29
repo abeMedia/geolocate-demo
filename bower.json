@@ -1,0 +1,22 @@
+{
+  "name": "geocode",
+  "authors": [
+    "Adam Bouqdib <adam@abemedia.co.uk>"
+  ],
+  "description": "HTML5 Geocode Demo",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}

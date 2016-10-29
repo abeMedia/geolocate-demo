@@ -1,0 +1,20 @@
+title: 'GeoLocate'
+permalink: none
+locale: en_GB
+timezone: Europe/London
+assets:
+  compress:
+    css: false
+    js: true
+  digest: true
+  sources:
+    - bower_components
+    - _assets/less
+    - _assets/images
+    - _assets/js
+baseurl: /geolocate-demo
+exclude:
+  - Gemfile*
+  - bower*
+  - README.md
+  - vendor
